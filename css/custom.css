@@ -7,3 +7,12 @@ section {
 .cl-white {
 	color: white;
 }
+
+img {
+	width: 300px;
+	transition: opacity 1s ease-in-out;
+}
+
+img:hover {
+	opacity: .5;
+}
